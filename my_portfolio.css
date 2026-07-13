@@ -1201,7 +1201,7 @@ footer{
         width: 100vw;
         height: auto;
         display: grid;
-        grid-template-rows: 400px 300px 200px;
+        grid-template-rows: 300px 270px 200px;
         background-color: #063121;
     }
     .contact-info{
@@ -1217,7 +1217,7 @@ footer{
     .contact-info h2{
         width: auto;
         font-size: 25px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .contact-info .contact-text1 {
     color: #f8fafc;
@@ -1252,11 +1252,13 @@ footer{
     }
     .quick-links-container{
         width: 100%;
+        height: 100%;
         display: flex;
         justify-content: center;
         border-left: none;
         border-right: none;
         border-bottom: 1px solid #f8fafc ;
+        background-color: #161B22;
     }
     .quick-links-container h2{
         font-size: 35px;
@@ -1268,9 +1270,10 @@ footer{
         width: 100%;
         height: 100%;
         border-bottom: 1px solid #F8FAFC;
+        background-color: #0d1117;
     }
     .connect-with-me h2{
-        margin-top: 25px;
+        margin-top: 30px;
         margin-left: 20px;
         font-size: 25px;
     }
@@ -1327,7 +1330,6 @@ footer{
 
     .loading{
         height: 20px;
-        margin-bottom: 20px;
     }
     .loading-text{
         align-self: flex-start;
