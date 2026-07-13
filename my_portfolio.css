@@ -1213,6 +1213,7 @@ footer{
         justify-content: start;
         flex-wrap: wrap;
         border-bottom: 1px solid #F8FAFC;
+        background-color: #0f5132;
     }
     .contact-info h2{
         width: auto;
@@ -1226,7 +1227,7 @@ footer{
     margin-top: 0;
     }
     .contact-info .contact-text2 {
-    color: #acadad;
+    color: #d1d5db;
     font-size: 20px;
     font-weight: 200;
     }
@@ -1290,7 +1291,8 @@ footer{
     transform: translateY(-3px);
     }
     footer{
-        font-size: 12px;
+        font-size: 10px;
+        color: #9CA3AF;
     }
     footer p{
         margin-bottom: 5px;
