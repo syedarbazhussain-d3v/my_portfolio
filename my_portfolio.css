@@ -1084,24 +1084,20 @@ footer{
     display: flex;
     flex-direction: row;
     width: 86%;
-    background-color: blue;
-    gap: 5px;
     }
 
     .about-info-section1 {
-    width: 180px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: white;
     }
 
     .about-info-section2 {
-    width: 180px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: white;
     }
 
     .about-name,
@@ -1329,7 +1325,6 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 50px;
-    overflow: hidden;
     }
 
     .loading{
