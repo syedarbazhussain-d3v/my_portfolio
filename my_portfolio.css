@@ -1081,23 +1081,20 @@ footer{
     }
 
     .about-info-container {
-    display: grid;
-    grid-template-columns: 150px 150px;
-    flex-direction: row;
-    width: 87%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
     }
 
-    .about-info-section1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    .about-info-section1{
+        width: 140px;
+        background-color: blueviolet;
     }
+    .about-info-section2{
+        width: 140px;
+        background-color: blueviolet;
+        margin-right: 25px;
 
-    .about-info-section2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-right: 20px ;
     }
 
     .about-name,
