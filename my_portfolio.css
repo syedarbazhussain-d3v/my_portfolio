@@ -921,6 +921,9 @@ footer{
 
 /* Hero Section for Mobile */
 @media (max-width: 430px) {
+    body{
+        overflow-x: hidden;
+    }
     header{
         max-width: 100%;
         justify-content: space-around;
@@ -960,7 +963,7 @@ footer{
         height: 140px;
         position: absolute;
         top: -35px;
-        right: -35px;
+        justify-self: center;
     }
     .image-container{
         width: 140px;
@@ -991,7 +994,7 @@ footer{
         font-size: 13px;
     }
     .hero-btns{
-        width: 95%;
+        width: 92%;
         display: flex;
         justify-content: space-evenly;
     }
@@ -1040,8 +1043,8 @@ footer{
     }
 
     .my-img2 {
-    width: 100%;
-    height: 100%;
+    width: 92%;
+    height: 92%;
     }
 
     .my-img2:hover {
@@ -1080,24 +1083,24 @@ footer{
     .about-info-container {
     display: grid;
     grid-template-columns: 150px 150px;
-    width: 95%;
+    width: 93%;
     justify-self: center;
     }
 
     .about-info-section1 {
-    width: 130px;
+    width: 110px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 15px;
+    gap: 10px;
     }
 
     .about-info-section2 {
-    width: 130px;
+    width: 110px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 15px;
+    gap: 10px;
     }
 
     .about-name,
@@ -1123,7 +1126,7 @@ footer{
     .about-language-top {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     }
 
     .about-icons {
