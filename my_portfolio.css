@@ -1011,6 +1011,9 @@ footer{
         height: 40px;
         font-size: 9px;
     }
+    .hero-icons{
+        margin-left: 10px;
+    }
     .social-icons{
         width: 25px;
     }
@@ -1089,10 +1092,10 @@ footer{
     .about-info-section1{
         width: 140px;
     }
+
     .about-info-section2{
         width: 140px;
-        margin-right: 25px;
-
+        margin-right: 20px;
     }
 
     .about-name,
@@ -1140,11 +1143,6 @@ footer{
     margin-top: 4px;
     }
 
-    .about-email-link {
-    text-decoration: underline;
-    text-underline-offset: 2px;
-    color: #22c55e;
-    }
 
     .about-email-link:hover {
     color: #16a34a;
