@@ -1083,8 +1083,8 @@ footer{
     .about-info-container {
     display: grid;
     grid-template-columns: 150px 150px;
-    width: 93%;
-    justify-self: center;
+    width: 90%;
+    background-color: blue;
     }
 
     .about-info-section1 {
@@ -1092,15 +1092,13 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 10px;
     }
 
     .about-info-section2 {
-    width: 110px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 10px;
     }
 
     .about-name,
