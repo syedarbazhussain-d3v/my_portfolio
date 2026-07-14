@@ -1084,6 +1084,7 @@ footer{
     display: flex;
     flex-direction: row;
     width: 86%;
+    background-color: transparent;
     }
 
     .about-info-section1 {
