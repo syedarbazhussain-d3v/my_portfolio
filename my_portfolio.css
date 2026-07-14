@@ -1081,24 +1081,27 @@ footer{
     }
 
     .about-info-container {
-    display: grid;
-    grid-template-columns: 150px 150px;
-    width: 90%;
+    display: flex;
+    flex-direction: row;
+    width: 86%;
     background-color: blue;
+    gap: 5px;
     }
 
     .about-info-section1 {
-    width: 110px;
+    width: 180px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    background-color: white;
     }
 
     .about-info-section2 {
-    width: 100px;
+    width: 180px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    background-color: white;
     }
 
     .about-name,
@@ -1326,6 +1329,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 50px;
+    overflow: hidden;
     }
 
     .loading{
