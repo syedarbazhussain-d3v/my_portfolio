@@ -1080,27 +1080,22 @@ footer{
     line-height: 1.5;
     }
 
-    .about-info-container {
-    display: flex;
-    flex-direction: row;
+    .about-info-container{
     width: 86%;
-    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    background: transparent;
     }
 
-    .about-info-section1 {
-    width: 50%;
+    .about-info-section1,
+    .about-info-section2{
+    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 20px;
     }
-
-    .about-info-section2 {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    }
-
     .about-name,
     .about-experience,
     .about-freelance,
